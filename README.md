@@ -19,23 +19,24 @@ repository.
 * Sqlalchemy 1.1.15
 
 ## Project Contents
-static(blank_user.gif, styles.css, top-banner.jpg)
-templates(
-    addItem.html
-    catalog.html
-    category.html
-    deleteItem.html
-    editItem.html
-    header.html
-    item.html
-    login.html
-    main.html
-    page_not_found.html
+* static(blank_user.gif, styles.css, top-banner.jpg)
+* templates(
+    * addItem.html
+    * catalog.html
+    * category.html
+    * deleteItem.html
+    * editItem.html
+    * header.html
+    * item.html
+    * login.html
+    * main.html
+    * page_not_found.html
 )
-application.py
-database_setup.py
-lotsofitems.py
-README.md
+* application.py
+* database_setup.py
+* lotsofitems.py
+* README.md
+* Vagrantfile
 
 ## Installation Instructions
 1. Clone this repository to your computer.
