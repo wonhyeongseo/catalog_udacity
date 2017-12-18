@@ -7,16 +7,16 @@ User, Category, and Item. Forms are used to add, edit and delete items from the 
 It also utilizes a third-party signin via [Google Signin](https://developers.google.com/identity/sign-in/web/devconsole-project).
 
 ## Requirements
-[Git](https://git-scm.com/)
-Vagrant (Most recent)
-VirtualBox (Most recent) **Be sure to set [Intel Virtual Technology](http://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html) to enabled in the BIOS. **
+* [Git](https://git-scm.com/)
+* Vagrant (Most recent)
+* VirtualBox (Most recent) **Be sure to set [Intel Virtual Technology](http://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html) to enabled in the BIOS. **
 
 The packages below are all available when you set up a Virtual Machine with the Vagrantfile in this
 repository.
 
-Flask 0.12.2
-Python 2.7.12
-Sqlalchemy 1.1.15
+* Flask 0.12.2
+* Python 2.7.12
+* Sqlalchemy 1.1.15
 
 ## Project Contents
 static(blank_user.gif, styles.css, top-banner.jpg)
@@ -43,9 +43,11 @@ README.md
 3. Type "vagrant up", and after installation is complete, "vagrant ssh", and after logged in, "cd /vagrant".
 4. Please go through the instructions in this [website](https://developers.google.com/identity/sign-in/web/devconsole-project), but at step 5, set the authorized javascript origins field as "http://localhost:5000" and authorized redirect uris as "http://localhost:5000/login" and "http://localhost:5000/catalog"; then continue.
 5. Click the download button below the trash can button, rename the file as "client_secrets.json", and put it your directory.
-6. Copy the Client ID, and replace two "<YOUR-CLIENT-ID>" with it in the login.html in the templates folder.
-<meta name="google-signin-client_id" content="<YOUR-CLIENT-ID>">
-client_id: '<YOUR-CLIENT-ID>'
+6. Copy the Client ID, and replace two "`<YOUR-CLIENT-ID>`" with it in the login.html in the templates folder.
+```
+    <meta name="google-signin-client_id" content="<YOUR-CLIENT-ID>">
+    client_id: '<YOUR-CLIENT-ID>'
+```
 
 ## Operating Instructions
 1. Type in to your Git CMD, "python database_setup.py" to run the database setup.
