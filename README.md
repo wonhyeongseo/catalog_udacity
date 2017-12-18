@@ -56,4 +56,7 @@ repository.
 3. Finally, run the application by typing in "python application.py" into your logged in Git CMD.
 4. The app will be running at "http://localhost:5000". Thank you for using this app. 
 
-This will be used as boilerplate code for a future project of mine.
+### Source
+Udacity's Full Stack Nanodegree program.
+
+#### This will be used as boilerplate code for a future project of mine.
